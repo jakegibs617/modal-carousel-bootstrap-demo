@@ -12,7 +12,26 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
      
-      <div class="item active">
+     <div class="item active">
+        <img src="images/ready_stage_0.png" alt="First slide">
+        <div class="carousel-caption">
+        </div>
+      </div>
+     
+        <?php  
+          // loop through each of the slides and display
+          for ($i=1; $i <= 2; $i++) { 
+            echo '<div class="item">';
+              echo "<img src='images/ready_stage_" . $i . ".png' alt='slide" . $i . "' />";
+            echo '<div class="carousel-caption"></div>';
+            echo '</div>';
+          };
+
+        ?>
+     
+      <!-- // Or do it the static option below // -->
+
+      <!-- <div class="item active">
         <img src="images/ready_stage_0.png" alt="First slide">
         <div class="carousel-caption">
         </div>
@@ -26,7 +45,7 @@
         <img src="images/ready_stage_2.png" alt="Third slide">
         <div class="carousel-caption">
         </div>
-      </div>
+      </div> -->
     
     </div>
 
