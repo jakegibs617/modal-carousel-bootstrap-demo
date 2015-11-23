@@ -22,7 +22,7 @@
         <div class="carousel-caption">
         </div>
       </div>
-      <div class="item active">
+      <div class="item">
         <img src="images/ready_stage_2.png" alt="Third slide">
         <div class="carousel-caption">
         </div>
